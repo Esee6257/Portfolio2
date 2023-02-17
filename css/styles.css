@@ -1,0 +1,299 @@
+body {
+
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(249 246 240);
+}
+
+.Esee{
+    font-family: "poppins", sans-serif;
+
+}
+
+.table1 {
+    position: absolute;
+    right: 800px;
+    top: 70px;
+
+
+}
+
+.work{
+    position: relative;
+    padding-right: 50px;
+    font-family: "poppins", sans-serif;
+    color:rgb(169, 131, 89)
+    
+}
+
+.about {
+    position: relative;
+    padding-right: 50px;
+    font-family: "poppins", sans-serif;
+    color:rgb(169, 131, 89)
+}
+
+
+.contact {
+    position: relative;
+    padding-right: 50px;
+    font-family: "poppins", sans-serif;
+    color:rgb(169, 131, 89)
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+
+
+}
+
+.coffee {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/*****ANIMATION******/
+
+
+
+.work:hover{
+    position: relative;
+    padding-right: 50px;
+    font-family: "poppins", sans-serif;
+    color:rgb(169, 131, 89)
+    
+}
+
+.about:hover {
+    position: relative;
+    padding-right: 50px;
+    font-family: "poppins", sans-serif;
+    color:rgb(169, 131, 89)
+}
+
+
+.contact:hover {
+    position: relative;
+    padding-right: 50px;
+    font-family: "poppins", sans-serif;
+    color:rgb(169, 131, 89)
+}
+
+
+.work:hover {
+    color: #7a5159cb;
+    font-size: larger;
+}
+
+
+
+.about:hover {
+    color: #7a5159cb;
+    font-size: larger;
+}
+
+
+.contact:hover {
+    color: #7a5159cb;
+    font-size: larger;
+}
+
+
+
+.Esee{
+    color:rgb(169, 131, 89);
+    position: relative;
+     animation: slide-in 1.5s ease;
+     animation-fill-mode:forwards;
+}
+
+.Esee:hover {
+    color: #7a5159cb;
+    font-size: larger;
+}
+
+
+
+.coffee1 {
+    position: absolute;
+    width: 80px;
+    height: 140px;
+    top: 0;
+    left: 25px;
+}
+
+
+.coffee {
+    position: absolute;
+    animation: fade-in 1.5s ease;
+    animation-fill-mode: none;
+    width: 80px;
+    height: 140px;
+    top: 0;
+    left: 8%;
+}
+
+
+
+.table1 {
+    animation: fade-in-left 1.5s ease;
+    position: absolute;
+    right: 80px;
+    top: 8%;
+
+
+}
+
+
+/*****KEY FRAMES******/
+
+@keyframes fade-in-left {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 8%;
+    }
+
+}
+
+
+
+@keyframes slide-in {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 0%;
+    }
+
+}
+
+@keyframes fade-in {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 8%;
+    }
+
+}
+
+@keyframes slide-in-left {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 15%;
+    }
+
+}
+
+@keyframes slide-in-right {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 18%;
+    }
+
+}
+
+
+
+
+/*****RESPONSIVE COCK******/
+
+
+@media only screen and (max-width: 450px){
+    .table1 {
+        animation: slide-in-left 1.5s ease;
+        position: absolute;
+        left: 65px;
+        top: 500px;
+        font-size: small;    
+    
+    }
+
+    .coffee {
+        position: absolute;
+        animation: slide-in-right 1.5s ease;
+        animation-fill-mode:none ;
+        width: 80px;
+        height: 140px;
+        top: 10px;
+        right: 10px;
+
+    }
+
+    .coffee1 {
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        top: 10px;
+        right: 1px;
+
+    }
+}
+
+.Esee{
+    color:rgb(169, 131, 89);
+    position: relative;
+     animation: slide-in 1.5s ease;
+     animation-fill-mode:forwards;
+}
+
+
+@media only screen and (max-width: 900px){
+
+    .coffee {
+        left: 55px;
+        width: 120px;
+        height: 180px;
+    }
+
+    .Esee{
+        font-size: 25px;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 300px){
+
+    .coffee {
+        left: 15px;
+        width: 60px;
+        height: 80px;
+    }
+
+    .Esee{
+        font-size: 20px;
+
+    }
+
+
+}
+
+
+/*****RESPONSIVE COCK******/
